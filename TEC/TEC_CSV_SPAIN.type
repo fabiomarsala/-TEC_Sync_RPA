@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="kapow.robot.common.domain.Type" serializationversion="0">
+  <prologue>
+    <saved-by-versions>
+      <version>11.4.0.1</version>
+    </saved-by-versions>
+    <file-type>type</file-type>
+  </prologue>
+  <property name="attributes" class="kapow.robot.common.domain.Attributes">
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">LINE</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType" id="0"/>
+      <property name="recordFieldType" class="String" id="1">Integer</property>
+      <property name="required" class="Boolean">true</property>
+      <property name="useWhenComparingObjects" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">ORIGINAL_NAME</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType" id="2"/>
+      <property name="recordFieldType" class="String" id="3">Text</property>
+      <property name="required" class="Boolean">true</property>
+      <property name="useWhenComparingObjects" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">ORIGINAL_SKU</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" class="String" id="4">Text</property>
+      <property name="required" class="Boolean">true</property>
+      <property name="useWhenComparingObjects" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">SPANISH_RAW_ATTRIBUTES</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">SPANISH_SIZE</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="3"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">USA_SIZE_CONVERTED</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="3"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">IMAGE_FROM_SPAIN</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.TextAttributeType"/>
+      <property name="recordFieldType" idref="3"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">IMAGES_FROM_DICTIONARY</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.TextAttributeType" id="5"/>
+      <property name="recordFieldType" class="String" id="6">Text</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">IMAGES_IN_CSV_USA</property>
+      <property name="type" idref="5"/>
+      <property name="recordFieldType" class="String">Text</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">SPANISH_STOCK</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" class="String">Integer</property>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">EXISTING_PARENT</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.BooleanAttributeType"/>
+      <property name="recordFieldType" class="String" id="7">Boolean</property>
+      <property name="defaultValue" class="String" id="8">false</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">EXISTS_IN_USA</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.BooleanAttributeType"/>
+      <property name="recordFieldType" idref="7"/>
+      <property name="defaultValue" idref="8"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">USA_NAME</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType" id="9"/>
+      <property name="recordFieldType" idref="6"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">USA_CATEGORIES</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.TextAttributeType" id="10"/>
+      <property name="recordFieldType" class="String" id="11">Text</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">USA_REGULAR_PRICE</property>
+      <property name="type" idref="9"/>
+      <property name="recordFieldType" idref="6"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">USA_SALES_PRICE</property>
+      <property name="type" idref="9"/>
+      <property name="recordFieldType" idref="6"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">USA_STOCK</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">EXISTS_IN_DICTIONARY</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.BooleanAttributeType"/>
+      <property name="recordFieldType" idref="7"/>
+      <property name="defaultValue" idref="8"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">DICTIONARY_REGULAR_PRICE</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType" id="12"/>
+      <property name="recordFieldType" idref="11"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">DICTIONARY_SALE_PRICE</property>
+      <property name="type" idref="12"/>
+      <property name="recordFieldType" idref="11"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">DICTIONARY_CATEGORIES</property>
+      <property name="type" idref="10"/>
+      <property name="recordFieldType" idref="11"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">CALCULATED_PARENT_SKU_AAA</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="3"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">CALCULATED_MATCHING_USA_SKU</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="3"/>
+      <property name="required" class="Boolean">true</property>
+      <property name="useWhenComparingObjects" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">CALCULATED_NEW_B2B_SPANISH_SKU</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="3"/>
+      <property name="required" class="Boolean">true</property>
+      <property name="useWhenComparingObjects" class="Boolean">true</property>
+    </object>
+  </property>
+</object>

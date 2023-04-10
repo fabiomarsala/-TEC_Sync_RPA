@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="kapow.robot.common.domain.Type" serializationversion="0">
+  <prologue>
+    <saved-by-versions>
+      <version>11.4.0.1</version>
+    </saved-by-versions>
+    <file-type>type</file-type>
+  </prologue>
+  <property name="attributes" class="kapow.robot.common.domain.Attributes">
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">LINE</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType"/>
+      <property name="recordFieldType" class="String">Integer</property>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">ID</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType" id="0"/>
+      <property name="recordFieldType" class="String" id="1">Text</property>
+      <property name="required" class="Boolean">true</property>
+      <property name="useWhenComparingObjects" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Type</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">SKU</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Name</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Published</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Isfeatured</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">VisibilityInCatalog</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">ShortDescription</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Description</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.TextAttributeType" id="2"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">DateSalePriceStarts</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">DateSalePriceEnds</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">TaxStatus</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">TaxClass</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">InStock</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Stock</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType" id="3"/>
+      <property name="recordFieldType" class="String" id="4">Integer</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">LowStockAmount</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">BackordersAllowed</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType"/>
+      <property name="recordFieldType" idref="4"/>
+      <property name="defaultValue" class="String">0</property>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">SoldIndividually</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType"/>
+      <property name="recordFieldType" idref="4"/>
+      <property name="defaultValue" class="String">0</property>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">WeightKG</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">LenghCM</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">WidthCM</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">HeightCM</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AllowCustomerReviews</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+      <property name="required" class="Boolean">true</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">PurchaseNote</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">SalePrice</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">RegularPrice</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Categories</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Tags</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">ShippingClass</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Images</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">DownloadLimit</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">DownloadExpiryDays</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Parent</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">GroupedProducts</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Upsells</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">CrossSells</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">ExternalURL</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">ButtonText</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Position</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Language</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">TranslationGroup</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeOneName</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeOneValue</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeOneVisible</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeOneGlobal</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeTwoName</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeTwoValue</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeTwoVisible</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeTwoGlobal</property>
+      <property name="type" idref="3"/>
+      <property name="recordFieldType" idref="4"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeOneDefault</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">AttributeTwoDefault</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+  </property>
+</object>
